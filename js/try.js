@@ -7,3 +7,13 @@ if(firstNum !== NaN && secondNum !== NaN) {
 } else {
 	alert("One of the entered values was not a number. Please only enter numbers.")
 }
+
+// if(isNaN(start) || isNaN(end)){
+//   alert("One of the values you entered is not a number.");
+// } else if(start > end){
+//   alert("The start number is greater than the ending number.");
+// } else {
+//   for( var i = start; i < (end+1); i++){
+//     console.log(i % 2 ? i + " is even." : i + " is odd." );
+//   }
+// }
